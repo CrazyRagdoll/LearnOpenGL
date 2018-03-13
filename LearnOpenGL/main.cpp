@@ -22,7 +22,7 @@ int main()
 	if (window == NULL)
 	{
 		std::cout << "Failed to create GLFW window" << std::endl;
-		glfwTerminate();
+		glfwTerminate(); 
 		return -1;
 	}
 	glfwMakeContextCurrent(window);
